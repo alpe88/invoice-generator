@@ -1,0 +1,22 @@
+{
+  "name": "invoice-generator",
+  "version": "1.0.0",
+  "description": "Generates an invoice based on some input",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alpe88/invoice-generator.git"
+  },
+  "author": "Aleksandar Petrovic",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/alpe88/invoice-generator/issues"
+  },
+  "homepage": "https://github.com/alpe88/invoice-generator#readme",
+  "dependencies": {
+    "squirrelly": "^9.0.0"
+  }
+}
