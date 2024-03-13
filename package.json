@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/alpe88/invoice-generator#readme",
   "dependencies": {
+    "commander": "^12.0.0",
     "squirrelly": "^9.0.0"
+  },
+  "devDependencies": {
+    "puppeteer": "^22.4.1"
   }
 }

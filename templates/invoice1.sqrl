@@ -8,8 +8,8 @@
 </head>
 <body>
     <h1>Invoice</h1>
-    <p>Vendor: {{@vendorName}}</p>
-    <p>Client: {{@clientName}}</p>
+    <p>Vendor: {{it.vendorName}}</p>
+    <p>Client: {{it.clientName}}</p>
     <table>
         <thead>
             <tr>
@@ -20,12 +20,12 @@
             </tr>
         </thead>
         <tbody>
-            {{#each @work}}
+            {{@each(it.work) => w}}
             <tr>
-                <td>{{@description}}</td>
-                <td>{{@hours}}</td>
-                <td>{{@rate}}</td>
-                <td>{{@total}}</td>
+                <td>{{w.description}}</td>
+                <td>{{w.hours}}</td>
+                <td>{{w.rate}}</td>
+                <td>{{w.total}}</td>
             </tr>
             {{/each}}
         </tbody>

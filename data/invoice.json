@@ -1,0 +1,36 @@
+{
+  "vendor": {
+    "name": "Your Company Name",
+    "address": "123 Main St, City, State, Zip",
+    "phone": "123-456-7890",
+    "email": "vendor@example.com",
+    "ein": "123456789"
+  },
+  "client": {
+    "name": "Client Company Name",
+    "address": "456 Elm St, City, State, Zip",
+    "phone": "987-654-3210",
+    "email": "client@example.com",
+    "contractNumber": "CON-123"
+  },
+  "invoice": {
+    "invoiceNumber": "INV-001",
+    "work": [
+      {
+        "description": "Service 1",
+        "hours": 10,
+        "rate": 100
+      },
+      {
+        "description": "Service 2",
+        "hours": 8,
+        "rate": 120
+      },
+      {
+        "description": "Service 3",
+        "hours": 15,
+        "rate": 80
+      }
+    ]
+  }
+}
